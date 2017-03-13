@@ -1,0 +1,320 @@
+{
+  "publicMenu": [
+    {
+    "Contact Lenses": [
+      {
+        "name": "Daily",
+        "href": "https://www.feelgoodcontacts.com/catalogue/daily-disposable"
+      },
+      {
+        "name": "Monthly",
+        "href": "https://www.feelgoodcontacts.com/catalogue/monthly-disposable"
+      },
+      {
+        "name": "Two Weekly",
+        "href": "https://www.feelgoodcontacts.com/catalogue/two-weekly-disposable"
+      },
+      {
+        "name": "Coloured",
+        "href": "https://www.feelgoodcontacts.com/catalogue/coloured-lenses"
+      },
+      {
+        "name": "Toric/Astigmatism",
+        "href": "https://www.feelgoodcontacts.com/catalogue/toric-astigmatism-lenses"
+      },
+      {
+        "name": "Bifocal/Progressive",
+        "href": "https://www.feelgoodcontacts.com/catalogue/bifocal-progressive-lenses"
+      },
+      {
+        "name": "Multifocal",
+        "href": "https://www.feelgoodcontacts.com/catalogue/multifocal-lenses"
+      },
+      {
+        "name": "Extended Wear",
+        "href": "https://www.feelgoodcontacts.com/catalogue/extended-wear-lenses"
+      },
+      {
+        "name": "Silicone Hydrogel",
+        "href": "https://www.feelgoodcontacts.com/catalogue/silicone-hydrogel"
+      }
+    ]
+    },{
+    "Brands":[
+      {
+        "name": "Focus Dailies",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Focus-Dailies"
+      },
+      {
+        "name": "Air Optix",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Air-Optix"
+      },
+      {
+        "name": "1 Day Acuvue",
+        "href": "https://www.feelgoodcontacts.com/catalogue/1-Day-Acuvue"
+      },
+      {
+        "name": "Proclear",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Proclear"
+      },
+      {
+        "name": "Acuvue Oasys",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Acuvue-Oasys"
+      },
+      {
+        "name": "Acuvue Advance",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Acuvue-Advance"
+      },
+      {
+        "name": "Acuvue 2",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Acuvue-2"
+      },
+      {
+        "name": "Biofinity",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Biofinity"
+      },
+      {
+        "name": "Freshlook",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Freshlook"
+      },
+      {
+        "name": "Frequency",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Frequency"
+      },
+      {
+        "name": "Biomedics",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Biomedics"
+      },
+      {
+        "name": "Pure Vision",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Pure-Vision"
+      },
+      {
+        "name": "Soflens",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Soflens"
+      },
+      {
+        "name": "Avaira",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Avaira"
+      },
+      {
+        "name": "Clariti",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Clariti"
+      },
+      {
+        "name": "ReNu",
+        "href": "https://www.feelgoodcontacts.com/catalogue/ReNu"
+      },
+      {
+        "name": "Opti Free",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Opti-Free"
+      },
+      {
+        "name": "AOSept",
+        "href": "https://www.feelgoodcontacts.com/catalogue/AOSept"
+      },
+      {
+        "name": "Biotrue",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Biotrue"
+      },
+      {
+        "name": "Complete",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Complete"
+      },
+      {
+        "name": "SoloCare",
+        "href": "https://www.feelgoodcontacts.com/catalogue/SoloCare"
+      },
+      {
+        "name": "EasySept",
+        "href": "https://www.feelgoodcontacts.com/catalogue/EasySept"
+      },
+      {
+        "name": "OxySept",
+        "href": "https://www.feelgoodcontacts.com/catalogue/OxySept"
+      },
+      {
+        "name": "Total Care",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Total-Care"
+      },
+      {
+        "name": "Blink",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Blink"
+      },
+      {
+        "name": "MyDay",
+        "href": "https://www.feelgoodcontacts.com/catalogue/MyDay"
+      },
+      {
+        "name": "Systane",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Systane"
+      },
+      {
+        "name": "Bio true",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Bio-true"
+      },
+      {
+        "name": "Comfi",
+        "href": "https://www.feelgoodcontacts.com/catalogue/Comfi"
+      }
+    ]
+  },{
+    "Solutions": [
+      {
+        "name": "Multi-Purpose",
+        "href": "https://www.feelgoodcontacts.com/catalogue/multi-purpose"
+      },
+      {
+        "name": "Saline Solution",
+        "href": "https://www.feelgoodcontacts.com/catalogue/saline-solution"
+      },
+      {
+        "name": "Peroxide Solutions",
+        "href": "https://www.feelgoodcontacts.com/catalogue/peroxide-solutions"
+      },
+      {
+        "name": "Travel Pack",
+        "href": "https://www.feelgoodcontacts.com/catalogue/travel-pack"
+      },
+      {
+        "name": "Rigid & Gas Permeable",
+        "href": "https://www.feelgoodcontacts.com/catalogue/rigid-gas-permeable"
+      }
+    ]},
+    {
+    "Eye Care": [
+      {
+        "name": "Eye Drops",
+        "href": "https://www.feelgoodcontacts.com/catalogue/eye-drops"
+      },
+      {
+        "name": "Eye Accessories",
+        "href": "https://www.feelgoodcontacts.com/catalogue/eye-accessories"
+      }
+    ]
+    },
+    {
+    "Sunglasses": [
+      {
+        "name": "Ray-Ban",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/ray-ban"
+      },
+      {
+        "name": "CARRERA",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/carrera"
+      },
+      {
+        "name": "POLAROID",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/polaroid"
+      },
+      {
+        "name": "TAYLOR MORRIS",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/taylor-morris"
+      },
+      {
+        "name": "LINDA FARROW",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/linda-farrow"
+      },
+      {
+        "name": "OXYDO",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/oxydo"
+      },
+      {
+        "name": "BVLGARI",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/bvlgari"
+      },
+      {
+        "name": "DVF",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/dvf"
+      },
+      {
+        "name": "Calvin-Klein",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/calvin-klein"
+      },
+      {
+        "name": "Chloe",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/chloe"
+      },
+      {
+        "name": "Nike",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/nike"
+      },
+      {
+        "name": "Lacoste",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/lacoste"
+      },
+      {
+        "name": "Persol",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/persol"
+      },
+      {
+        "name": "OAKLEY",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/oakley"
+      },
+      {
+        "name": "Giorgio Armani",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/giorgio-armani"
+      },
+      {
+        "name": "MICHAEL KORS",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/michael-kors"
+      },
+      {
+        "name": "PRADA",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/prada"
+      },
+      {
+        "name": "O'NEILL",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/oneill"
+      },
+      {
+        "name": "Superdry",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/superdry"
+      },
+      {
+        "name": "POLICE",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/police"
+      },
+      {
+        "name": "DUNLOP",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/dunlop"
+      },
+      {
+        "name": "SUNPOCKET",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/sunpocket"
+      },
+      {
+        "name": "GUCCI",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/gucci"
+      },
+      {
+        "name": "HUGO BOSS",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/hugo-boss"
+      },
+      {
+        "name": "kate spade",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/kate-spade"
+      },
+      {
+        "name": "JIMMY CHOO",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/jimmy-choo"
+      },
+      {
+        "name": "CELINE",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/celine"
+      },
+      {
+        "name": "BLOC",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/bloc"
+      },
+      {
+        "name": "Sunglass Accessories",
+        "href": "https://www.feelgoodcontacts.com/sunglasses/brand/sunglass-accessories"
+      },
+      {
+        "name": "All Sunglasses",
+        "href": "https://www.feelgoodcontacts.com/sunglasses"
+      }
+    ]
+  }]
+}
