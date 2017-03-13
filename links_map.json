@@ -318,10 +318,10 @@
     ]
   },
   {
-  "Login":{
+  "Login": [{
       "name":"login/SignUp",
       "isParent":"true",
       "href":"https://www.feelgoodcontacts.com/sunglasses"
-  }
+  }]
   }]
 }
