@@ -340,35 +340,45 @@
           "isParent": "true",
           "href":"https://www.feelgoodcontacts.com/my-account/index.aspx"
         }
-      ],
+      ]
+  },
+  {
       "My Addresses":[
         {
           "name":"My Addresses",
           "isParent": "true",
           "href":"https://www.feelgoodcontacts.com/my-account/manage-addressbook.aspx"
         }
-      ],
+      ]
+  },
+  {
       "Personal Details":[
         {
           "name": "Personal Details",
           "isParent":"true",
           "href":"https://www.feelgoodcontacts.com/my-account/personal-details.aspx"
         }
-      ],
-      "My Subscriptions":[
+      ]
+  },
+  { 
+        "My Subscriptions":[
         {
           "name": "My Subscriptions",
           "isParent":"true",
           "href":"https://www.feelgoodcontacts.com/my-account/managesubscription.aspx"
         }
-      ],
+      ]
+  },
+  {
       "Change Password":[
         {
           "name": "Change Password",
           "isParent":"true",
           "href":"https://www.feelgoodcontacts.com/my-account/change-password.aspx"
         }
-      ],
+      ]
+  },
+  {
       "My Orders":[
         {
           "name": "Orders",
@@ -386,7 +396,9 @@
           "name":"Returns",
           "href":"https://www.feelgoodcontacts.com/my-account/return-item.aspx"
         }
-      ],
+      ]
+  },
+  {
       "Reward Points": [
         {
           "name":"Reward Points",
@@ -396,7 +408,8 @@
           "name":"Refer a Friend",
           "href":"https://www.feelgoodcontacts.com/my-account/recommend-a-friend.aspx"
         }
-      ],
+      ]
+  },{
       "Log out":[
         {
           "name":"Log out",
