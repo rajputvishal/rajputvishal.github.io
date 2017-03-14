@@ -235,7 +235,7 @@
           "name": "Dvf",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/dvf"
         },
-		{
+		    {
           "name": "Giorgio Armani",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/giorgio-armani"
         },
@@ -256,7 +256,7 @@
           "name": "Kate Spade",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/kate-spade"
         },
-		{
+		    {
           "name": "Lacoste",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/lacoste"
         },
@@ -264,7 +264,6 @@
           "name": "Linda Farrow",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/linda-farrow"
         },
-
         {
           "name": "Michael Kors",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/michael-kors"
@@ -359,7 +358,7 @@
       "My Subscriptions":[
         {
           "name": "My Subscriptions",
-          "isParent":"true"
+          "isParent":"true",
           "url":"https://www.feelgoodcontacts.com/my-account/managesubscription.aspx"
         }
       ],
