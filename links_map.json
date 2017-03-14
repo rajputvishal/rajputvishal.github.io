@@ -3,7 +3,7 @@
     {
       "Contact Lenses": [
 	  	{
-          "name": "Daily",
+          "name": "Vishal",
           "href": "https://www.feelgoodcontacts.com/catalogue/daily-disposable"
         },
         {
@@ -417,5 +417,6 @@
           "href":"https://www.feelgoodcontacts.com/logout.aspx"
         }
       ]
-  }]
+  }
+  ]
 }
