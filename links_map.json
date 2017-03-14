@@ -338,70 +338,70 @@
         {
           "name":"My Account",
           "isParent": "true",
-          "url":"https://www.feelgoodcontacts.com/my-account/index.aspx"
+          "href":"https://www.feelgoodcontacts.com/my-account/index.aspx"
         }
       ],
       "My Addresses":[
         {
           "name":"My Addresses",
           "isParent": "true",
-          "url":"https://www.feelgoodcontacts.com/my-account/manage-addressbook.aspx"
+          "href":"https://www.feelgoodcontacts.com/my-account/manage-addressbook.aspx"
         }
       ],
       "Personal Details":[
         {
           "name": "Personal Details",
           "isParent":"true",
-          "url":"https://www.feelgoodcontacts.com/my-account/personal-details.aspx"
+          "href":"https://www.feelgoodcontacts.com/my-account/personal-details.aspx"
         }
       ],
       "My Subscriptions":[
         {
           "name": "My Subscriptions",
           "isParent":"true",
-          "url":"https://www.feelgoodcontacts.com/my-account/managesubscription.aspx"
+          "href":"https://www.feelgoodcontacts.com/my-account/managesubscription.aspx"
         }
       ],
       "Change Password":[
         {
           "name": "Change Password",
           "isParent":"true",
-          "url":"https://www.feelgoodcontacts.com/my-account/change-password.aspx"
+          "href":"https://www.feelgoodcontacts.com/my-account/change-password.aspx"
         }
       ],
       "My Orders":[
         {
           "name": "Orders",
-          "url":"https://www.feelgoodcontacts.com/my-account/order-history.aspx"
+          "href":"https://www.feelgoodcontacts.com/my-account/order-history.aspx"
         },
         {
           "name":"Auto Replenish",
-          "url":"https://www.feelgoodcontacts.com/my-account/auto-reorder.aspx"
+          "href":"https://www.feelgoodcontacts.com/my-account/auto-reorder.aspx"
         },
         {
           "name":"Reminder for next supply",
-          "url":"https://www.feelgoodcontacts.com/my-account/managereminder.aspx"
+          "href":"https://www.feelgoodcontacts.com/my-account/managereminder.aspx"
         },
         {
           "name":"Returns",
-          "url":"https://www.feelgoodcontacts.com/my-account/return-item.aspx"
+          "href":"https://www.feelgoodcontacts.com/my-account/return-item.aspx"
         }
       ],
       "Reward Points": [
         {
           "name":"Reward Points",
-          "url":"https://www.feelgoodcontacts.com/my-account/reward-points.aspx"
+          "href":"https://www.feelgoodcontacts.com/my-account/reward-points.aspx"
         },
         {
           "name":"Refer a Friend",
-          "url":"https://www.feelgoodcontacts.com/my-account/recommend-a-friend.aspx"
+          "href":"https://www.feelgoodcontacts.com/my-account/recommend-a-friend.aspx"
         }
       ],
       "Log out":[
         {
           "name":"Log out",
           "isParent":"true",
-          "url":"https://www.feelgoodcontacts.com/logout.aspx"
+          "href":"https://www.feelgoodcontacts.com/logout.aspx"
         }
       ]
   }]
