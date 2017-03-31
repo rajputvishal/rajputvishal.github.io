@@ -1,46 +1,6 @@
 {
   "publicMenu": [
     {
-      "Contact Lenses": [
-	  	{
-          "name": "vishal",
-          "href": "https://www.feelgoodcontacts.com/catalogue/daily-disposable"
-        },
-        {
-          "name": "Monthly",
-          "href": "https://www.feelgoodcontacts.com/catalogue/monthly-disposable"
-        },
-        {
-          "name": "Two Weekly",
-          "href": "https://www.feelgoodcontacts.com/catalogue/two-weekly-disposable"
-        },
-        {
-          "name": "Coloured",
-          "href": "https://www.feelgoodcontacts.com/catalogue/coloured-lenses"
-        },
-        {
-          "name": "Toric/Astigmatism",
-          "href": "https://www.feelgoodcontacts.com/catalogue/toric-astigmatism-lenses"
-        },
-        {
-          "name": "Multifocal",
-          "href": "https://www.feelgoodcontacts.com/catalogue/multifocal-lenses"
-        },
-        {
-          "name": "Extended Wear",
-          "href": "https://www.feelgoodcontacts.com/catalogue/extended-wear-lenses"
-        },
-        {
-          "name": "Silicone Hydrogel",
-          "href": "https://www.feelgoodcontacts.com/catalogue/silicone-hydrogel"
-        },
-		    {
-          "name": "All Contact Lenses",
-          "href": "https://www.feelgoodcontacts.com/catalogue/all-contact-lenses"
-        }
-      ]
-    },
-    {
       "Brands": [
         {
           "name": "1 Day Acuvue",
@@ -161,6 +121,58 @@
       ]
     },
     {
+      "Contact Lenses": [
+        {
+          "name": "VVV",
+          "href": "https://www.feelgoodcontacts.com/catalogue/daily-disposable"
+        },
+        {
+          "name": "Monthly",
+          "href": "https://www.feelgoodcontacts.com/catalogue/monthly-disposable"
+        },
+        {
+          "name": "Two Weekly",
+          "href": "https://www.feelgoodcontacts.com/catalogue/two-weekly-disposable"
+        },
+        {
+          "name": "Coloured",
+          "href": "https://www.feelgoodcontacts.com/catalogue/coloured-lenses"
+        },
+        {
+          "name": "Toric/Astigmatism",
+          "href": "https://www.feelgoodcontacts.com/catalogue/toric-astigmatism-lenses"
+        },
+        {
+          "name": "Multifocal",
+          "href": "https://www.feelgoodcontacts.com/catalogue/multifocal-lenses"
+        },
+        {
+          "name": "Extended Wear",
+          "href": "https://www.feelgoodcontacts.com/catalogue/extended-wear-lenses"
+        },
+        {
+          "name": "Silicone Hydrogel",
+          "href": "https://www.feelgoodcontacts.com/catalogue/silicone-hydrogel"
+        },
+        {
+          "name": "All Contact Lenses",
+          "href": "https://www.feelgoodcontacts.com/catalogue/all-contact-lenses"
+        }
+      ]
+    },
+    {
+      "Eye Care": [
+        {
+          "name": "Eye Drops",
+          "href": "https://www.feelgoodcontacts.com/catalogue/eye-drops"
+        },
+        {
+          "name": "Eye Accessories",
+          "href": "https://www.feelgoodcontacts.com/catalogue/eye-accessories"
+        }
+      ]
+    },
+    {
       "Solutions": [
         {
           "name": "Multi-Purpose",
@@ -181,18 +193,6 @@
         {
           "name": "Rigid & Gas Permeable",
           "href": "https://www.feelgoodcontacts.com/catalogue/rigid-gas-permeable"
-        }
-      ]
-    },
-    {
-      "Eye Care": [
-        {
-          "name": "Eye Drops",
-          "href": "https://www.feelgoodcontacts.com/catalogue/eye-drops"
-        },
-        {
-          "name": "Eye Accessories",
-          "href": "https://www.feelgoodcontacts.com/catalogue/eye-accessories"
         }
       ]
     },
@@ -222,7 +222,6 @@
           "name": "Celine",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/celine"
         },
-
         {
           "name": "Chloe",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/chloe"
@@ -235,7 +234,7 @@
           "name": "Dvf",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/dvf"
         },
-		    {
+        {
           "name": "Giorgio Armani",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/giorgio-armani"
         },
@@ -243,7 +242,6 @@
           "name": "Gucci",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/gucci"
         },
-
         {
           "name": "Hugo Boss",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/hugo-boss"
@@ -256,7 +254,7 @@
           "name": "Kate Spade",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/kate-spade"
         },
-		    {
+        {
           "name": "Lacoste",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/lacoste"
         },
@@ -300,7 +298,6 @@
           "name": "Prada",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/prada"
         },
-
         {
           "name": "Ray-Ban",
           "href": "https://www.feelgoodcontacts.com/sunglasses/brand/ray-ban"
@@ -333,90 +330,92 @@
       ]
     }
   ],
-  "privateMenu": [{
-      "My Account":[
+  "privateMenu": [
+    {
+      "My Account": [
         {
-          "name":"My Account",
+          "name": "My Account",
           "isParent": "true",
-          "href":"https://www.feelgoodcontacts.com/my-account/index.aspx"
+          "href": "https://www.feelgoodcontacts.com/my-account/index.aspx"
         }
       ]
-  },
-  {
-      "My Addresses":[
+    },
+    {
+      "My Addresses": [
         {
-          "name":"My Addresses",
+          "name": "My Addresses",
           "isParent": "true",
-          "href":"https://www.feelgoodcontacts.com/my-account/manage-addressbook.aspx"
+          "href": "https://www.feelgoodcontacts.com/my-account/manage-addressbook.aspx"
         }
       ]
-  },
-  {
-      "Personal Details":[
+    },
+    {
+      "Personal Details": [
         {
           "name": "Personal Details",
-          "isParent":"true",
-          "href":"https://www.feelgoodcontacts.com/my-account/personal-details.aspx"
+          "isParent": "true",
+          "href": "https://www.feelgoodcontacts.com/my-account/personal-details.aspx"
         }
       ]
-  },
-  {
-        "My Subscriptions":[
+    },
+    {
+      "My Subscriptions": [
         {
           "name": "My Subscriptions",
-          "isParent":"true",
-          "href":"https://www.feelgoodcontacts.com/my-account/managesubscription.aspx"
+          "isParent": "true",
+          "href": "https://www.feelgoodcontacts.com/my-account/managesubscription.aspx"
         }
       ]
-  },
-  {
-      "Change Password":[
+    },
+    {
+      "Change Password": [
         {
           "name": "Change Password",
-          "isParent":"true",
-          "href":"https://www.feelgoodcontacts.com/my-account/change-password.aspx"
+          "isParent": "true",
+          "href": "https://www.feelgoodcontacts.com/my-account/change-password.aspx"
         }
       ]
-  },
-  {
-      "My Orders":[
+    },
+    {
+      "My Orders": [
         {
           "name": "Orders",
-          "href":"https://www.feelgoodcontacts.com/my-account/order-history.aspx"
+          "href": "https://www.feelgoodcontacts.com/my-account/order-history.aspx"
         },
         {
-          "name":"Auto Replenish",
-          "href":"https://www.feelgoodcontacts.com/my-account/auto-reorder.aspx"
+          "name": "Auto Replenish",
+          "href": "https://www.feelgoodcontacts.com/my-account/auto-reorder.aspx"
         },
         {
-          "name":"Reminder for next supply",
-          "href":"https://www.feelgoodcontacts.com/my-account/managereminder.aspx"
+          "name": "Reminder for next supply",
+          "href": "https://www.feelgoodcontacts.com/my-account/managereminder.aspx"
         },
         {
-          "name":"Returns",
-          "href":"https://www.feelgoodcontacts.com/my-account/return-item.aspx"
+          "name": "Returns",
+          "href": "https://www.feelgoodcontacts.com/my-account/return-item.aspx"
         }
       ]
-  },
-  {
+    },
+    {
       "Reward Points": [
         {
-          "name":"Reward Points",
-          "href":"https://www.feelgoodcontacts.com/my-account/reward-points.aspx"
+          "name": "Reward Points",
+          "href": "https://www.feelgoodcontacts.com/my-account/reward-points.aspx"
         },
         {
-          "name":"Refer a Friend",
-          "href":"https://www.feelgoodcontacts.com/my-account/recommend-a-friend.aspx"
+          "name": "Refer a Friend",
+          "href": "https://www.feelgoodcontacts.com/my-account/recommend-a-friend.aspx"
         }
       ]
-  },{
-      "Log out":[
+    },
+    {
+      "Log out": [
         {
-          "name":"Log out",
-          "isParent":"true",
-          "href":"https://www.feelgoodcontacts.com/logout.aspx"
+          "name": "Log out",
+          "isParent": "true",
+          "href": "https://www.feelgoodcontacts.com/logout.aspx"
         }
       ]
-  }
+    }
   ]
 }
