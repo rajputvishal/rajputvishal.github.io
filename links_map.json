@@ -122,9 +122,9 @@
     },
     {
       "Contact Lenses": [
-          {
-            "name": "All Contact Lenses",
-            "href": "https://www.feelgoodcontacts.com/catalogue/all-contact-lenses"
+        {
+          "name": "All Contact Lenses",
+          "href": "https://www.feelgoodcontacts.com/catalogue/all-contact-lenses"
         },
         {
           "name": "Coloured",
@@ -174,26 +174,26 @@
     },
     {
       "Solutions": [
-         {
-            "name": "Multi-Purpose",
-            "href": "https://www.feelgoodcontacts.com/catalogue/multi-purpose"
-         },
-         {
-            "name": "Peroxide Solutions",
-            "href": "https://www.feelgoodcontacts.com/catalogue/peroxide-solutions"
-         },
-         {
-           "name": "Rigid & Gas Permeable",
-           "href": "https://www.feelgoodcontacts.com/catalogue/rigid-gas-permeable"
-         }
-         {
-           "name": "Saline Solution",
-           "href": "https://www.feelgoodcontacts.com/catalogue/saline-solution"
-         },
-         {
-           "name": "Travel Pack",
-           "href": "https://www.feelgoodcontacts.com/catalogue/travel-pack"
-         }
+        {
+          "name": "Multi-Purpose",
+          "href": "https://www.feelgoodcontacts.com/catalogue/multi-purpose"
+        },
+        {
+          "name": "Peroxide Solutions",
+          "href": "https://www.feelgoodcontacts.com/catalogue/peroxide-solutions"
+        },
+        {
+          "name": "Rigid & Gas Permeable",
+          "href": "https://www.feelgoodcontacts.com/catalogue/rigid-gas-permeable"
+        },
+        {
+          "name": "Saline Solution",
+          "href": "https://www.feelgoodcontacts.com/catalogue/saline-solution"
+        },
+        {
+          "name": "Travel Pack",
+          "href": "https://www.feelgoodcontacts.com/catalogue/travel-pack"
+        }
       ]
     },
     {
