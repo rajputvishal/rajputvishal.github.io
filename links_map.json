@@ -122,41 +122,41 @@
     },
     {
       "Contact Lenses": [
-        {
-          "name": "Daily Disposable",
-          "href": "https://www.feelgoodcontacts.com/catalogue/daily-disposable"
-        },
-        {
-          "name": "Monthly",
-          "href": "https://www.feelgoodcontacts.com/catalogue/monthly-disposable"
-        },
-        {
-          "name": "Two Weekly",
-          "href": "https://www.feelgoodcontacts.com/catalogue/two-weekly-disposable"
+          {
+            "name": "All Contact Lenses",
+            "href": "https://www.feelgoodcontacts.com/catalogue/all-contact-lenses"
         },
         {
           "name": "Coloured",
           "href": "https://www.feelgoodcontacts.com/catalogue/coloured-lenses"
         },
         {
-          "name": "Toric/Astigmatism",
-          "href": "https://www.feelgoodcontacts.com/catalogue/toric-astigmatism-lenses"
-        },
-        {
-          "name": "Multifocal",
-          "href": "https://www.feelgoodcontacts.com/catalogue/multifocal-lenses"
+          "name": "Daily Disposable",
+          "href": "https://www.feelgoodcontacts.com/catalogue/daily-disposable"
         },
         {
           "name": "Extended Wear",
           "href": "https://www.feelgoodcontacts.com/catalogue/extended-wear-lenses"
         },
         {
+          "name": "Monthly",
+          "href": "https://www.feelgoodcontacts.com/catalogue/monthly-disposable"
+        },
+        {
+          "name": "Multifocal",
+          "href": "https://www.feelgoodcontacts.com/catalogue/multifocal-lenses"
+        },
+        {
           "name": "Silicone Hydrogel",
           "href": "https://www.feelgoodcontacts.com/catalogue/silicone-hydrogel"
         },
         {
-          "name": "All Contact Lenses",
-          "href": "https://www.feelgoodcontacts.com/catalogue/all-contact-lenses"
+          "name": "Two Weekly",
+          "href": "https://www.feelgoodcontacts.com/catalogue/two-weekly-disposable"
+        },
+        {
+          "name": "Toric/Astigmatism",
+          "href": "https://www.feelgoodcontacts.com/catalogue/toric-astigmatism-lenses"
         }
       ]
     },
@@ -174,26 +174,26 @@
     },
     {
       "Solutions": [
-        {
-          "name": "Multi-Purpose",
-          "href": "https://www.feelgoodcontacts.com/catalogue/multi-purpose"
-        },
-        {
-          "name": "Saline Solution",
-          "href": "https://www.feelgoodcontacts.com/catalogue/saline-solution"
-        },
-        {
-          "name": "Peroxide Solutions",
-          "href": "https://www.feelgoodcontacts.com/catalogue/peroxide-solutions"
-        },
-        {
-          "name": "Travel Pack",
-          "href": "https://www.feelgoodcontacts.com/catalogue/travel-pack"
-        },
-        {
-          "name": "Rigid & Gas Permeable",
-          "href": "https://www.feelgoodcontacts.com/catalogue/rigid-gas-permeable"
-        }
+         {
+            "name": "Multi-Purpose",
+            "href": "https://www.feelgoodcontacts.com/catalogue/multi-purpose"
+         },
+         {
+            "name": "Peroxide Solutions",
+            "href": "https://www.feelgoodcontacts.com/catalogue/peroxide-solutions"
+         },
+         {
+           "name": "Rigid & Gas Permeable",
+           "href": "https://www.feelgoodcontacts.com/catalogue/rigid-gas-permeable"
+         }
+         {
+           "name": "Saline Solution",
+           "href": "https://www.feelgoodcontacts.com/catalogue/saline-solution"
+         },
+         {
+           "name": "Travel Pack",
+           "href": "https://www.feelgoodcontacts.com/catalogue/travel-pack"
+         }
       ]
     },
     {
