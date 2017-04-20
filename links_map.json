@@ -1,6 +1,55 @@
 {
   "publicMenu": [
     {
+      "Login": [
+        {
+          "name": "Login / Register",
+          "isParent": "true",
+          "href": "https://www.feelgoodcontacts.com/userlogin.aspx"
+        }
+      ]
+    },
+    {
+      "Contact Lenses": [
+        {
+          "name": "All Contact Lenses",
+          "href": "https://www.feelgoodcontacts.com/catalogue/all-contact-lenses"
+        },
+        {
+          "name": "Coloured",
+          "href": "https://www.feelgoodcontacts.com/catalogue/coloured-lenses"
+        },
+        {
+          "name": "Daily Disposable",
+          "href": "https://www.feelgoodcontacts.com/catalogue/daily-disposable"
+        },
+        {
+          "name": "Extended Wear",
+          "href": "https://www.feelgoodcontacts.com/catalogue/extended-wear-lenses"
+        },
+        {
+          "name": "Monthly",
+          "href": "https://www.feelgoodcontacts.com/catalogue/monthly-disposable"
+        },
+        {
+          "name": "Multifocal",
+          "href": "https://www.feelgoodcontacts.com/catalogue/multifocal-lenses"
+        },
+        {
+          "name": "Silicone Hydrogel",
+          "href": "https://www.feelgoodcontacts.com/catalogue/silicone-hydrogel"
+        },
+        {
+          "name": "Two Weekly",
+          "href": "https://www.feelgoodcontacts.com/catalogue/two-weekly-disposable"
+        },
+        {
+          "name": "Toric/Astigmatism",
+          "href": "https://www.feelgoodcontacts.com/catalogue/toric-astigmatism-lenses"
+        }
+      ]
+    },
+    {
       "Brands": [
         {
           "name": "1 Day Acuvue",
@@ -121,54 +170,22 @@
       ]
     },
     {
-      "Contact Lenses": [
+      "Manufacturer": [
         {
-          "name": "All Contact Lenses",
-          "href": "https://www.feelgoodcontacts.com/catalogue/all-contact-lenses"
+          "name": "Alcon (Ciba Vision)",
+          "href": "https://www.feelgoodcontacts.com/catalogue/alcon-ciba-vision"
         },
         {
-          "name": "Coloured",
-          "href": "https://www.feelgoodcontacts.com/catalogue/coloured-lenses"
+          "name": "Bausch & Lomb",
+          "href": "https://www.feelgoodcontacts.com/catalogue/bausch-lomb-contact-lenses"
         },
         {
-          "name": "Daily Disposable",
-          "href": "https://www.feelgoodcontacts.com/catalogue/daily-disposable"
+          "name": "CooperVision / Sauflon",
+          "href": "https://www.feelgoodcontacts.com/catalogue/cooper-vision-contact-lenses"
         },
         {
-          "name": "Extended Wear",
-          "href": "https://www.feelgoodcontacts.com/catalogue/extended-wear-lenses"
-        },
-        {
-          "name": "Monthly",
-          "href": "https://www.feelgoodcontacts.com/catalogue/monthly-disposable"
-        },
-        {
-          "name": "Multifocal",
-          "href": "https://www.feelgoodcontacts.com/catalogue/multifocal-lenses"
-        },
-        {
-          "name": "Silicone Hydrogel",
-          "href": "https://www.feelgoodcontacts.com/catalogue/silicone-hydrogel"
-        },
-        {
-          "name": "Two Weekly",
-          "href": "https://www.feelgoodcontacts.com/catalogue/two-weekly-disposable"
-        },
-        {
-          "name": "Toric/Astigmatism",
-          "href": "https://www.feelgoodcontacts.com/catalogue/toric-astigmatism-lenses"
-        }
-      ]
-    },
-    {
-      "Eye Care": [
-        {
-          "name": "Eye Drops",
-          "href": "https://www.feelgoodcontacts.com/catalogue/eye-drops"
-        },
-        {
-          "name": "Eye Accessories",
-          "href": "https://www.feelgoodcontacts.com/catalogue/eye-accessories"
+          "name": "Johnson & Johnson",
+          "href": "https://www.feelgoodcontacts.com/catalogue/acuvue-contact-lenses"
         }
       ]
     },
@@ -193,6 +210,18 @@
         {
           "name": "Travel Pack",
           "href": "https://www.feelgoodcontacts.com/catalogue/travel-pack"
+        }
+      ]
+    },
+    {
+      "Eye Care": [
+        {
+          "name": "Eye Drops",
+          "href": "https://www.feelgoodcontacts.com/catalogue/eye-drops"
+        },
+        {
+          "name": "Eye Accessories",
+          "href": "https://www.feelgoodcontacts.com/catalogue/eye-accessories"
         }
       ]
     },
@@ -321,11 +350,22 @@
       ]
     },
     {
-      "Login": [
+      "Help": [
         {
-          "name": "Login / Register",
-          "isParent": "true",
-          "href": "https://www.feelgoodcontacts.com/userlogin.aspx"
+          "name": "FAQ",
+          "href": "https://www.feelgoodcontacts.com/help.aspx"
+        },
+        {
+          "name": "Lens fitting",
+          "href": "https://www.feelgoodcontacts.com/information/lens-fitting.aspx"
+        },
+        {
+          "name": "Prescription",
+          "href": "https://www.feelgoodcontacts.com/information/prescription.aspx"
+        },
+        {
+          "name": "Contact Lens Care",
+          "href": "https://www.feelgoodcontacts.com/information/contactlenscare.aspx"
         }
       ]
     }
