@@ -11,6 +11,7 @@
     max-width: 1250px;
     position: relative;
 }
+
 .sidebar{
     display: -webkit-box;
     display: -webkit-flex;
@@ -25,6 +26,7 @@
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    border-right: 1px solid #ccc;
     position: fixed;
     top: 0;
     left: 0;
@@ -88,11 +90,31 @@
     background-color: #515151;
   }
 
-  .about p {
+.about p {
     font-size: 16px;
     margin: 0 0 10px;
-  }  
-  .content-box {
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li:first-child,
+.menu ul li:last-child {
+    border: none;
+}
+
+.menu ul li {
+    text-align: center;
+    list-style: none;
+    font-size: 22px;
+    margin: 5px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.content-box {
     padding: 20px;
     padding-left: 260px;
     display: -webkit-box;
@@ -111,9 +133,9 @@
     -webkit-align-items: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
-  }
+}
 
-  .contact .contact-title {
+.contact .contact-title {
     position: relative;
     color: #333030;
     font-weight: 400;
@@ -157,13 +179,13 @@
 .contact ul li {
     display: inline-block;
     margin-left: 10px;
-  }
+}
   
-  .contact ul li:first-child {
-    margin-left: 0;
-  }
+.contact ul li:first-child {
+margin-left: 0;
+}
   
-  .contact ul li a {
+.contact ul li a {
     color: #515151;
     display: block;
     padding: 5px;
@@ -171,23 +193,23 @@
     -webkit-transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
     -o-transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
     transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
-  }
+}
   
-  .contact ul li a:hover {
-    color: #333030;
-    -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-            transform: scale(1.2);
-  }
+.contact ul li a:hover {
+color: #333030;
+-webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
 
-  .contact ul {
+.contact ul {
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
-  }
-  footer .copyright {
+}
+footer .copyright {
     font-size: 14px;
     text-align: center;
     margin: 0;
-  }
+}
