@@ -1,7 +1,10 @@
+var path = require('path')
 module.exports = {
     entry: ["./app.js"],
     output: {
-        filename: "bundle.js"
+        path: path.join(__dirname, '/dist'),
+        filename: "bundle.js",
+        publicPath: './dist/'
     },
     mode: 'production',
     module: {
@@ -13,9 +16,9 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                use: ["style-loader", "css-loader"]
-            },
-            
+                use: ["style-loader", "css-loader"],
+                exclude: /node_modules/
+            },            
             {
                 test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
                 use: [{
