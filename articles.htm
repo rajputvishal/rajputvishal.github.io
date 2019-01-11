@@ -1,19 +1,70 @@
 <!DOCTYPE html>
 <html>
-    <heaed>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <head>
+        <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="css/utility.css" rel="stylesheet">
+        <link href="css/article.css" rel="stylesheet">
+        <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
         <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    </heaed>
+        <script src="./js/components.js"></script>
+    </head>
     <body>
-        <div id="app">
-            <p>{{ message }}</p>
-            <p>{{hello()}}</p>
-        </div>
+        <div id = "app" class="container-fluid">
+            <div id="mobile-menu-open" class="shadow-large">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+             <!-- End #mobile-menu-toggle -->
+            <my-header></my-header>
+            <div class="row justify-content-center">
+                <div class="article-head">
+                    <h1 class="text-center">
+                        The Articles: Thoughts on life, work and everything in between.
+                    </h1>
+                </div>
+            </div>
+            
+            <div id="article-grid" class="row justify-content-center">
+                <div class="col-md-8">
+                    <div  v-for="item in articles" class="card" style="width: 18em">
+                            <img src="./images/article-default.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">{{item.title}}</h5>
+                                <p class="card-text">{{item.description}}</p>
+                                <a :href=item.link class="btn btn-primary">Read more</a>
+                            </div>
+                    </div>
+                </div>
+                <div id="disqus_thread" class="col-md-8"></div>
+            </div>               
+            <my-footer></my-footer>            
+        </div>         
         <script>
           var app = new Vue({
                 el: '#app',
                 data: {
-                    message: 'Hello Vue!'
+                    articles: [
+                        {
+                            "title": "how to add disqus on Git page",
+                            "description": "This will show you how to do things",
+                            "link": "http://www.google.com"
+                        },
+                        {
+                            "title": "how to add disqus on Git page",
+                            "description": "This will show you how to do things",
+                            "link": "http://www.google.com"
+                        },
+                        {
+                            "title": "how to add disqus on Git page",
+                            "description": "This will show you how to do things",
+                            "link": "http://www.google.com"
+                        },
+                        {
+                            "title": "how to add disqus on Git page",
+                            "description": "This will show you how to do things",
+                            "link": "http://www.google.com"
+                        }
+                    ]
                 },
                 methods: {
                     hello: function(){
@@ -21,8 +72,8 @@
                     }
                 }
             })
-        </script>
-        <div id="disqus_thread"></div>
+        </script>  
+
         <script>
         
         /**
