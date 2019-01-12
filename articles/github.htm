@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="../css/utility.css" rel="stylesheet">
+        <link href="../css/articles.css" rel="stylesheet">
+        <link href="../css/article.css" rel="stylesheet">
+        <link rel="stylesheet" href="../libs/font-awesome/css/font-awesome.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="../js/components.js"></script>
+    </head>
+    <body>
+        <div id = "app" class="container-fluid">
+            <div id="mobile-menu-open" class="shadow-large">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+             <!-- End #mobile-menu-toggle -->
+            <my-header></my-header>
+            <div class="row justify-content-center">
+                <div class="article-head">
+                    <h1 class="text-center">
+                        How to add Disqus to your blog
+                    </h1>
+                </div>
+            </div>
+            
+            <div id="article-body" class="row justify-content-center">
+                <div class="col-md-8">
+                    <p>This took me a little bit of grief so hopefully this will save you some trouble.</p>
+
+                    <p>Your short name should look something like this, depending on how you've set up your blog: https-YOURUSERNAME-github-io-YOURUSERNAME-github-io . If you're typing in your Disqus "USERNAME" in the _config.yml then you are doing the wrong thing. Your username is the thing you use to log into your disqus account.</p>
+                    
+                    <p>Here's what worked for me.</p>
+                    
+                    <ol><li>You need a Disqus account. If you don't have one please create one. This is much like creating a gmail or hotmail account.</li>
+                    <li>Log into Disqus using the username and password you just created. Go to the disqus home page and click admin. Click on "install Disqus" and follow those instructions. You'll need to select Jekyll etc. Add in your website name and complete set up. In my case it was: https://bkspurgeon.github.io/BKSpurgeon.github.io/</li>
+                    <li>Then you'll want to edit the settings for the site you just created. I"ll try and describe it as clearly as I can. As before, get to the admin page of your account. Then click on "Edit Settings" (do a CTRL + F search for it if you can't find it. Once clicked, select the website you just created.</li>
+                    <li>Voila! The short name should appear just above the entry to your website URL copy this short name and paste it into the _config.yml file.</li>
+                    </ol>
+                </div>
+
+            </div>
+            <div class="row justify-content-center">
+                <div id="disqus_thread" class="col-md-8"></div>
+            </div>               
+            <my-footer></my-footer>            
+        </div>         
+        <script>
+          var app = new Vue({
+                el: '#app',
+                data: {
+                    articles: [
+                        {
+                            "title": "how to add disqus on Git page",
+                            "description": "This will show you how to do things",
+                            "link": "http://www.google.com"
+                        },
+                        {
+                            "title": "how to add disqus on Git page",
+                            "description": "This will show you how to do things",
+                            "link": "http://www.google.com"
+                        },
+                        {
+                            "title": "how to add disqus on Git page",
+                            "description": "This will show you how to do things",
+                            "link": "http://www.google.com"
+                        },
+                        {
+                            "title": "how to add disqus on Git page",
+                            "description": "This will show you how to do things",
+                            "link": "http://www.google.com"
+                        }
+                    ]
+                },
+                methods: {
+                    hello: function(){
+                        return this.message +" "+"how are you";
+                    }
+                }
+            })
+        </script>  
+
+        <script>
+        
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        
+        var disqus_config = function () {
+        this.page.url = "https://vi5halrajput.com";  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = "vi5halrajput.com/articles/github.htm"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://vishal-rajput-1.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </body>
+</html>
