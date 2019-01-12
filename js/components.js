@@ -20,7 +20,7 @@ Vue.component("my-header", {
                 </div>
                 <ul id="menu" class="shadow">
                     <li><a href="/">Home</a></li>
-                    <li><a class="no-scroll" href="./articles.htm">Articles</a></li>
+                    <li><a class="no-scroll" href="/articles.htm">Articles</a></li>
                     <li><a href="./projects.htm">Projects</a></li>
                     <li class="slide-menu" v-bind:class="{active: isContactActive}" v-on:click="contactClick"><a class="slide-menu" href="javascript:">Contact</a></li>                    
                     <li class="slide-option">
