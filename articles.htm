@@ -27,14 +27,13 @@
             
             <div id="article-grid" class="row justify-content-center">
                 <div class="col-md-8">
-                    <div  v-for="item in articles" class="card" style="width: 18em">
+                    <a  :href=item.link v-for="item in articles" class="card" style="width: 18em">
                             <img src="./images/article-default.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">{{item.title}}</h5>
-                                <p class="card-text text-muted">{{item.description}}</p>
-                                <a :href=item.link class="card-link">Read more</a>
+                                <p class="card-text text-muted">{{item.description}}</p>                                
                             </div>
-                    </div>
+                        </a>
                 </div>
 
             </div>
