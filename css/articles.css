@@ -155,7 +155,7 @@ header.sticky {
     transform: scale(1.1);
 }
 .card .card-body {
-    padding: 5px;
+    padding: 24px;
 }
 
 .card img {
