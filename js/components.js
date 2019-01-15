@@ -19,9 +19,9 @@ Vue.component("my-header", {
                     <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
                 </div>
                 <ul id="menu" class="shadow">
-                    <li><a href="/">Home</a></li>
-                    <li><a class="no-scroll" href="/articles.htm">Articles</a></li>
+                    <li><a href="/index.htm">Home</a></li>
                     <li><a href="#">Projects</a></li>
+                    <li><a href="/about.htm">About me</a></li>
                     <li class="slide-menu" v-bind:class="{active: isContactActive}" v-on:click="contactClick"><a class="slide-menu" href="javascript:">Contact</a></li>                    
                     <li class="slide-option">
                         <ul>

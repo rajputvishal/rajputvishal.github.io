@@ -24,10 +24,11 @@
                     </h1>
                 </div>
             </div>
-            
+            <!--<input type="text" id = "search-control" v-bind:items="articles" v-model="searchInput" v-on:keyup="hello"/>-->
             <div id="article-grid" class="row justify-content-center">
                 <div class="col-md-8">
-                    <a  :href=item.link v-for="item in articles" class="card" style="width: 18em">
+                    <span>{{searchInput}}</span>
+                    <a  :href=item.link v-for="item in articles" class="card" :class="item.visible ? '' : 'hidden'" style="width: 18em" v-bind:item="item">
                             <img src="./images/article-default.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">{{item.title}}</h5>
@@ -50,13 +51,32 @@
                         {
                             "title": "how to add disqus on Git page",
                             "description": "This will show you how you can add disqus plugin on your github page.",
-                            "link": "./articles/github.htm"
+                            "link": "./articles/github.htm",
+                            "tags": ["git", "disqus", "comment", "github"],
+                            "visible": true
                         }
-                    ]
+                    ],
+                    searchInput: ""
                 },
                 methods: {
                     hello: function(){
-                        return this.message +" "+"how are you";
+                        var list = this.articles;
+                        var q = this.searchInput;
+                        for(var i = 0; i < list.length; i++) {
+                            var article = list[i];
+                            if(!q) {
+                                article.visible = true;
+                                return true;
+                            }
+                            if(article.tags.indexOf(this.searchInput)>-1) {
+                                article.visible = true;
+                            } else {
+                                article.visible = false;
+                            }
+                        }                        
+                    },
+                    toggleVisiblity: function() {
+
                     }
                 }
             })
