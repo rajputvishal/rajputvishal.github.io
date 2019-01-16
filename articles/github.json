@@ -1,0 +1,45 @@
+{
+    "title": "How to add Disqus to your github page",
+    "elements": [{
+        "type": "img",
+        "altText": "Disqus logo",
+        "class": "logo",
+        "href": "../images/disqus_logo.png"
+    },
+    {
+        "type": "p",
+        "text": "This took me a little bit of grief so hopefully this will save you some trouble.",
+        "class": ""
+    },
+    {
+        "type": "p",
+        "text": "Your short name should look something like this, depending on how you've set up your blog: https-YOURUSERNAME-github-io-YOURUSERNAME-github-io . If you're typing in your Disqus 'USERNAME' in the _config.yml then you are doing the wrong thing. Your username is the thing you use to log into your disqus account.",
+        "class": ""
+    },{
+        "type": "p",
+        "text": "Here's what worked for me.",
+        "class": ""
+    }, {
+        "type": "ol",
+        "class": "",
+        "list": [{
+            "type": "p",
+            "text": "You need a Disqus account. If you don't have one please create one. This is much like creating a gmail or hotmail account.",
+            "class": ""       
+        },
+        {
+            "type": "p",
+            "text": "Log into Disqus using the username and password you just created. Go to the disqus home page and click admin. Click on 'install Disqus' and follow those instructions. You'll need to select Jekyll etc. Add in your website name and complete set up. In my case it was: https://bkspurgeon.github.io/BKSpurgeon.github.io/",
+            "class": ""       
+        },
+        {
+            "type": "p",
+            "text": "Then you'll want to edit the settings for the site you just created. I'll try and describe it as clearly as I can. As before, get to the admin page of your account. Then click on 'Edit Settings' (do a CTRL + F search for it if you can't find it. Once clicked, select the website you just created.",
+            "class": ""       
+        }, {
+            "type":"p",
+            "text":"Voila! The short name should appear just above the entry to your website URL copy this short name and paste it into the _config.yml file.",
+            "class": ""
+        }]        
+    }]
+}

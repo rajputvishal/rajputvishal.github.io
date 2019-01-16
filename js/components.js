@@ -57,6 +57,25 @@ Vue.component("my-header", {
 
 })
 
+Vue.component("my-para", {
+    props: ['text'],
+    template: "<p>{{text}}</p>"
+})
+
+Vue.component("my-ul", {
+    props: ['list'],
+    template: "<ul><li v-for='item in list'>{{item.text}}</li></ul>"
+})
+
+Vue.component("my-ol", {
+    props: ['list'],
+    template: "<ol><li v-for='item in list'>{{item.text}}</li></ol>"
+})
+
+Vue.component("my-img", {
+    props: ['alt', 'href', 'imgclass'],
+    template: '<img :src="href" :class="imgclass" :alt="alt"></img>'
+})
 
 Vue.component("my-footer", {
     template: '<footer class="border"><p>Copyright Vishal Rajput <span id="footer-date">2019</span></p></footer>'

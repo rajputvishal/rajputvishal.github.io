@@ -3,3 +3,8 @@
     line-height: 2;
     margin-bottom: 4em;
 }
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
