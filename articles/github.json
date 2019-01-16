@@ -29,17 +29,28 @@
         },
         {
             "type": "p",
-            "text": "Log into Disqus using the username and password you just created. Go to the disqus home page and click admin. Click on 'install Disqus' and follow those instructions. You'll need to select Jekyll etc. Add in your website name and complete set up. In my case it was: https://bkspurgeon.github.io/BKSpurgeon.github.io/",
+            "text": "Log into Disqus using the username and password you just created. Go to the disqus home page and click admin. Click on 'install Disqus' and follow those instructions. You will notice many options where you can easily install disqus but there is no built in support for Github yet, So we will have to go and select 'install with universal code'.You'll need to select Jekyll etc. Add in your website name and complete set up. In my case it was: https://bkspurgeon.github.io/BKSpurgeon.github.io/",
             "class": ""       
         },
         {
             "type": "p",
-            "text": "Then you'll want to edit the settings for the site you just created. I'll try and describe it as clearly as I can. As before, get to the admin page of your account. Then click on 'Edit Settings' (do a CTRL + F search for it if you can't find it. Once clicked, select the website you just created.",
+            "text": "On the universal code page you will get a javascript code from that code copy the <script> tag part and paste it just before </body> and paste <div id='disqus_thread'></div> anywhere you would like the disqus comment box to appear",
             "class": ""       
-        }, {
+        },
+        {
+            "type": "p",
+            "text": "Now we are almost done just go to the script tag block and replace 'PAGE_URL' with your website URL and PAGE_IDENTIFIER with anything which can uniquely identify your page (I pasted my complete URL of that page).",
+            "class": ""       
+        },{
             "type":"p",
-            "text":"Voila! The short name should appear just above the entry to your website URL copy this short name and paste it into the _config.yml file.",
+            "text":"Voila! Refresh your page and you should see disqus comment box on your page.",
             "class": ""
         }]        
+    },{
+        {
+            "type": "p",
+            "text": "Let me know if you faced any issue while following the above instructions in the comments :)",
+            "class": ""
+        }
     }]
 }
