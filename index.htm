@@ -5,7 +5,9 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
         <link href="css/utility.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
         <link href="css/articles.css" rel="stylesheet">
+        <link href="css/article.css" rel="stylesheet">
         <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
         <script src="https://cdn.jsdelivr.net/npm/vue"></script>
         <script src="./js/components.js"></script>
@@ -23,7 +25,7 @@
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </div>
              <!-- End #mobile-menu-toggle -->
-            <my-header></my-header>
+            <my-header :active="active"></my-header>
             <div class="row justify-content-center">
                 <div class="article-head">
                     <h1 class="text-center">
@@ -35,7 +37,7 @@
             <div id="article-grid" class="row justify-content-center">
                 <div class="col-md-8">
                     <span>{{searchInput}}</span>
-                    <a  :href=item.link v-for="item in articles" class="card" :class="item.visible ? '' : 'hidden'" style="width: 18em" v-bind:item="item">
+                    <a  :href=item.link v-for="item in articles" class="card" :class="item.visible ? '' : 'hidden'" v-bind:item="item">
                             <img src="./images/article-default.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">{{item.title}}</h5>
@@ -44,16 +46,14 @@
                         </a>
                 </div>
 
-            </div>
-            <div class="row justify-content-center">
-                <div id="disqus_thread" class="col-md-8"></div>
-            </div>               
+            </div>            
             <my-footer></my-footer>            
         </div>         
         <script>
           var app = new Vue({
                 el: '#app',
                 data: {
+                    active: "home",
                     articles: [
                         {
                             "title": "how to add disqus on Git page",
@@ -89,24 +89,6 @@
             })
         </script>  
 
-        <script>
-        
-        /**
-        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-        
-        var disqus_config = function () {
-        this.page.url = "https://vi5halrajput.com/articles.htm";  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = "vi5halrajput.com"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        
-        (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        s.src = 'https://vishal-rajput-1.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-        </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </body>
 </html>

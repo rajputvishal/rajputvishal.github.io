@@ -14,14 +14,15 @@ Vue.component('my-checkbox', {
   });
 
 Vue.component("my-header", {
+    props: ["active"],
     template: `<header>
                 <div id="mobile-menu-close">
                     <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
                 </div>
                 <ul id="menu" class="shadow">
-                    <li><a href="/index.htm">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="/about.htm">About me</a></li>
+                    <li><a :class="{active: active == 'home' ? true : false}" href="/index.htm">Home</a></li>
+                    <li><a :class="{active: active == 'project' ? true : false}" href="#">Projects</a></li>
+                    <li><a :class="{active: active == 'about' ? true : false}" href="/about.htm">About me</a></li>
                     <li class="slide-menu" v-bind:class="{active: isContactActive}" v-on:click="contactClick"><a class="slide-menu" href="javascript:">Contact</a></li>                    
                     <li class="slide-option">
                         <ul>

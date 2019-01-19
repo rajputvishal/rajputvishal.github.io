@@ -1,7 +1,24 @@
 #article-body{
     font-family: 'Roboto', sans-serif;
     line-height: 2;
-    margin-bottom: 4em;
+    margin-bottom: 4em;    
+}
+
+#article-body p {
+    font-size: 1.8em;
+}
+
+#article-body ul li, #article-body ol li {
+    font-size: 1.8em;
+}
+
+.article-head {
+    padding-top: 6em;
+    padding-bottom: 6em;    
+}
+
+.article-head h1{
+    font-size: 4em;
 }
 
 .logo {

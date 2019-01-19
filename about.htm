@@ -6,9 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" 
-         content="Article vishal vi5hal frontend developer vishalrajput rajput coding programming javascript portfolio">
-    <meta name="description" content="Vishal Rajput portfolio and articles on programming">
+    <meta name="keywords" content="Article vishal vi5hal frontend developer vishalrajput rajput coding programming javascript portfolio">
+    <meta name="description" content="Vishal Rajput's  portfolio and articles on programming">
     <title>Vishal Rajput</title>
 	<link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="./images/favicon/favicon.ico" type="image/x-icon">
@@ -16,7 +15,8 @@
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
     <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link href="css/main.css" rel="stylesheet">
+    <script src="./js/vue/vue.js"></script>
     <script src="./js/components.js"></script>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
@@ -29,7 +29,7 @@
 
 <body>
         <div id = "app" class="container-fluid">
-        <my-header></my-header>
+        <my-header :active="active"></my-header>
         <!-- End header -->
         <div class="row justify-content-center">
             <div class = "page-head" id="lead-content">
@@ -66,7 +66,10 @@
     <script src="./bootstrap/js/bootstrap.js"></script>
     <script>
             var app = new Vue({
-                el: '#app'
+                el: '#app',
+                data: {
+                    active: 'about'
+                }
             })
     </script>
     
