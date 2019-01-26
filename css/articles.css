@@ -2,6 +2,7 @@
     border-top: 1px solid #ccc;
     padding-top: 6em;
     padding-bottom: 6em;
+    height: 500px;
 }
 
 .slide-option {
@@ -15,10 +16,79 @@
 .slide-option:hover {
     display: block;
 }
-.card {
+
+.top-stories {
+    background: red;
+    height: 100%;
+    width: 100%;
+}
+
+.top-story {
+    height: 50%;
+    width: 40%;
+    padding: 4px;
+    background-size: cover;   
     float: left;
-    width: 25em;
-    margin: 10px;    
+    background-position: 50%;
+}
+
+.top-story:first-child {
+    height: 100%;
+    width: 60%;
+}
+
+.top-story a{
+    display: inline-block;
+}
+
+.categories {
+    margin-bottom: 4em;
+}
+.category {
+    min-height: 400px;    
+}
+
+.category h2 {
+    color: red;
+    font-weight: 700;
+}
+
+.category .content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.category .content ul li a:before {
+    background-color: #f42;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 13px;
+    width: 4px;
+}
+
+.category .content .section-headline {
+    border-bottom: 1px solid #eee;
+}
+
+.category .content .section-headline a {
+    color: #555;
+    display: block;
+    padding: 6px 0 6px 14px;
+    position: relative;
+    font-size: 1.4em;
+}
+
+.card {
+
+    float: left;
+    width: 100%;
+    height: 100%;
+    /*margin: 10px;    */
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
@@ -32,25 +102,25 @@
 
 .card .card-text {
     font-size: medium;
+    color: #bdb6b6;
 }
 
 .card:hover {
     text-decoration: none;
     box-shadow: 0px 0px 20px #000000;
     z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.1);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.1);   
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.1);
-    transition: all 200ms ease-in;
-    transform: scale(1.1);
+    
 }
 .card .card-body {
     padding: 24px;
+    background-image:  linear-gradient(to bottom, rgba(255,0,0,0) , black);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
 }
 
 .card img {
-    width: 100%;  
+    width: 100%; 
+    height: 100%;
 }

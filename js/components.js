@@ -1,18 +1,3 @@
-Vue.component('my-checkbox', {
-    template: '<div class="checkbox-wrapper" @click="check"><div :class="{ checkbox: true, checked: checked }"></div><div class="title">{{ title }}</div></div>',
-    data() {
-      return {
-        checked: false,
-        title: 'Check me'
-      }
-    },
-    methods: {
-      check() {
-        this.checked = !this.checked;
-      }
-    }
-  });
-
 Vue.component("my-header", {
     props: ["active"],
     template: `<header>
@@ -57,6 +42,35 @@ Vue.component("my-header", {
     }                
 
 })
+
+Vue.component("top-story", {   
+    props: ['story'],
+    template: `<div class="top-story" >
+                <a :href="story.link" style="background: url('./images/article-default.jpg')" class="card main-story">                                    
+                    <div class="card-body">
+                        <h5 class="card-title">{{story.title}}</h5>
+                        <p class="card-text">{{story.description}}</p>                                
+                    </div>
+                </a>        
+                </div>`
+})
+
+Vue.component("category-item", {
+    props: ['item'],
+    template: "<li class='section-headline'><a :href='item.link' >{{item.title}}</a></li>"
+})
+
+Vue.component("category", {
+    props: ['category', 'list'],
+    template: `<div class="col-md-4 category">
+                    <h2>{{category}}</h2>
+                    <div class="content">
+                        <ul>
+                            <category-item v-for="item in list" v-bind:item="item" v-if="category == item.category"></category-item>
+                        </ul>
+                    </div>
+                </div> `
+});
 
 Vue.component("my-para", {
     props: ['text'],

@@ -48,7 +48,7 @@
             </div>
             
             <div id="article-body" class="row justify-content-center">
-                <div class="col-md-8">
+                <div class="col-md-8 inner-column">
                     <template v-for="item in page.elements">
                         <my-para v-if="item.type == 'p'" :text="item.text" :class="item.class"></my-para>                        
                         <my-img v-else-if="item.type == 'img'" :alt="item.altText" :imgclass="item.class" :href="item.href"></my-img>
@@ -78,7 +78,7 @@
                     var _this = this;
                     var article = location.search.match(/\?article=(\w+)/)[1];
                     axios
-                        .get(article+'.json')
+                        .get(article + '.json')
                         .then(
                             function(response){ 
                                 this.app.page = response.data;                                
