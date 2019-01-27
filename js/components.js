@@ -46,7 +46,7 @@ Vue.component("my-header", {
 Vue.component("top-story", {   
     props: ['story'],
     template: `<div class="top-story" >
-                <a :href="story.link" style="background: url('./images/article-default.jpg')" class="card main-story">                                    
+                <a :href="story.link" :style="'background: url('+ story.image+ ')'" class="card main-story">                                    
                     <div class="card-body">
                         <h5 class="card-title">{{story.title}}</h5>
                         <p class="card-text">{{story.description}}</p>                                
@@ -75,6 +75,11 @@ Vue.component("category", {
 Vue.component("my-para", {
     props: ['text'],
     template: "<p>{{text}}</p>"
+})
+
+Vue.component("my-video", {
+    props: ['html'],
+    template: "<div v-html='html'></div>"
 })
 
 Vue.component("my-ul", {
